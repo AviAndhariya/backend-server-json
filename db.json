@@ -132,6 +132,11 @@
       ]
     }
   ],
-  "auth":[],
-  "companies":[]
+  "auth": [
+    {
+      "email": "admin@stockbroker.com",
+      "password": "admin123"
+    }
+  ],
+  "companies": []
 }
