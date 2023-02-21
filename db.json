@@ -1,183 +1,453 @@
 {
   "users": [],
-  "blogs": [
+  "data": [
     {
-      "id": 1,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2022-06-04",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+      "correct_answer": "Simien Jackel",
+      "incorrect_answers": [
+        "Ethiopian Coyote",
+        "Amharic Fox",
+        "Canis Simiensis"
       ]
     },
     {
-      "id": 2,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2013-06-02",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": ["eBay", "Overstock", "Shopify"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which English guitarist has the nickname &quot;Slowhand&quot;?",
+      "correct_answer": "Eric Clapton",
+      "incorrect_answers": ["Mark Knopfler", "Jeff Beck", "Jimmy Page"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+      "correct_answer": "Year",
+      "incorrect_answers": ["Four Years", "Two Years", "Eight Years"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these songs was released in 1996?",
+      "correct_answer": "The Smashing Pumpkins - &quot;1979&quot;",
+      "incorrect_answers": [
+        "Prince - &quot;1999&quot;",
+        "James Blunt - &quot;1973&quot;",
+        "David Bowie - &quot;1984&quot;"
       ]
     },
     {
-      "id": 3,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2014-06-17",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The Spitfire originated from a racing plane.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the pen name of novelist, Mary Ann Evans?",
+      "correct_answer": "George Eliot",
+      "incorrect_answers": [
+        "George Orwell",
+        "George Bernard Shaw",
+        "George Saunders"
       ]
     },
     {
-      "id": 4,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2011-06-19",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the main character in &quot;The Stanley Parable&quot;?",
+      "correct_answer": "Stanley",
+      "incorrect_answers": ["The Adventure Line", "The Narrator", "The Boss"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+      "correct_answer": "August 19",
+      "incorrect_answers": ["August 21", "December 26", "December 24"]
+    },
+    {
+      "category": "Science: Gadgets",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The term &quot;battery&quot; to describe an electrical storage device was coined by?",
+      "correct_answer": "Benjamin Franklin",
+      "incorrect_answers": [
+        "Nikola Tesla",
+        "Luigi Galvani",
+        " Alessandro Volta"
       ]
     },
     {
-      "id": 5,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Where did the dog breed &quot;Chihuahua&quot; originate?",
+      "correct_answer": "Mexico",
+      "incorrect_answers": ["France", "Spain", "Russia"]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "&quot;The Big Bang Theory&quot; was first theorized by a priest of what religious ideology?",
+      "correct_answer": "Catholic",
+      "incorrect_answers": ["Christian", "Jewish", "Islamic"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Bohdan Khmelnytsky was which of the following?",
+      "correct_answer": "Leader of the Ukrainian Cossacks",
+      "incorrect_answers": [
+        "General Secretary of the Communist Party of the USSR",
+        "Prince of Wallachia",
+        "Grand Prince of Novgorod"
       ]
     },
     {
-      "id": 6,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The stop motion comedy show &quot;Robot Chicken&quot; was created by which of the following?",
+      "correct_answer": "Seth Green",
+      "incorrect_answers": ["Seth MacFarlane", "Seth Rogen", "Seth Rollins"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+      "correct_answer": "&quot;How disgusting.&quot;",
+      "incorrect_answers": [
+        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+        "&quot;Nothing.&quot;",
+        "&quot;Goddammit, Shinji.&quot;"
       ]
     },
     {
-      "id": 7,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Undertale, what&#039;s the prize for answering correctly?",
+      "correct_answer": "More questions",
+      "incorrect_answers": ["New car", "Mercy", "Money"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Gosho Aoyama Made This Series: (Detective Conan / Case Closed!)",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the last letter of the Greek alphabet?",
+      "correct_answer": "Omega",
+      "incorrect_answers": ["Mu", "Epsilon", "Kappa"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What Greek letter is used to signify summation?",
+      "correct_answer": "Sigma",
+      "incorrect_answers": ["Delta", "Alpha", "Omega"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following characters is NOT a female marriage candidate in the game Stardew Valley?",
+      "correct_answer": "Caroline",
+      "incorrect_answers": ["Abigail", "Haley", "Leah"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following snipers has the highest amount of confirmed kills?",
+      "correct_answer": "Simo H&auml;yh&auml;",
+      "incorrect_answers": ["Chris Kyle", "Vasily Zaytsev", "Craig Harrison"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What block in Minecraft has the highest blast resistance?",
+      "correct_answer": "Barrier",
+      "incorrect_answers": ["Obsidian", "Bedrock", "Block of Diamond"]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Bob Ross was a US Air Force pilot.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Science: Gadgets",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When did the CD begin to appear on the consumer market?",
+      "correct_answer": "1982",
+      "incorrect_answers": ["1992", "1972", "1962"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;One Piece&quot;, which one of the following is NOT an Ancient Weapon?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": ["Uranus", "Poseidon", "Pluton"]
+    },
+    {
+      "category": "Art",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these is not an additional variation of the color purple?",
+      "correct_answer": "Kobicha",
+      "incorrect_answers": ["Byzantium", "Pomp and Power", "Palatinate"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which band released the album &quot;Sonic Highways&quot; in 2014?",
+      "correct_answer": "Foo Fighters",
+      "incorrect_answers": ["Coldplay", "Nickelback", "The Flaming Lips"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s easter egg will reward you with the achievement, &quot;Time Travel Will Tell&quot;?",
+      "correct_answer": "Shangri-La",
+      "incorrect_answers": ["Ascension", "Moon", "Die Rise"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;PAYDAY 2&quot;, what weapon has the highest base weapon damage on a per-shot basis?",
+      "correct_answer": "HRL-7",
+      "incorrect_answers": [
+        "Heavy Crossbow",
+        "Thanatos .50 cal",
+        "Broomstick Pistol"
       ]
     },
     {
-      "id": 8,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "In &quot;League of Legends&quot;, there exists four different types of Dragon.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+      "correct_answer": "Auction Hunters",
+      "incorrect_answers": [
+        "Ramsay&#039;s Kitchen Nightmares",
+        "Hotel Hell",
+        "Hell&#039;s Kitchen"
       ]
     },
     {
-      "id": 9,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What Queen song plays during the final fight scene of the film &quot;Hardcore Henry&quot;?",
+      "correct_answer": "Don&#039;t Stop Me Now",
+      "incorrect_answers": [
+        "Brighton Rock",
+        "Another Bites the Dust",
+        "We Will Rock You"
       ]
     },
     {
-      "id": 10,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        { "username": "Jane", "content": "Good One" },
-        { "username": "Bob", "content": "Loved It!" }
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": ["Bahrain", "United States of America", "Russia"]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": ["Vanuatu", "Fiji", "Hawaii"]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "By which name is Ramon Estevez better known as?",
+      "correct_answer": "Martin Sheen",
+      "incorrect_answers": ["Charlie Sheen", "Ramon Sheen", "Emilio Estevez"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In the Magic: The Gathering universe, the Fallen Empires expansion takes place on which continent?",
+      "correct_answer": "Sarpadia",
+      "incorrect_answers": ["Otaria", "Terisiare", "Shiv"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Where would you find the &quot;Spanish Steps&quot;?",
+      "correct_answer": "Rome, Italy",
+      "incorrect_answers": [
+        "Barcelona, Spain",
+        "Berlin, Germany",
+        "London, England"
       ]
-    }
-  ],
-  "auth": [
-    {
-      "email": "admin@stockbroker.com",
-      "password": "admin123"
-    }
-  ],
-  "companies": [
-    {
-      "id": 1,
-      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
-      "company_name": "HDFC Bank",
-      "company_type": "Bank",
-      "stock_exchange": "NSE",
-      "total_shares": 50000,
-      "cost_per_share": 4210,
-      "price_action": 12
     },
     {
-      "id": 2,
-      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
-      "company_name": "Reliance Industries",
-      "company_type": "Oil",
-      "stock_exchange": "BSE",
-      "total_shares": 20000,
-      "cost_per_share": 2132,
-      "price_action": 4
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+      "correct_answer": "Brazzaville",
+      "incorrect_answers": ["Algiers", "Paris", "Tunis"]
     },
     {
-      "id": 3,
-      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
-      "company_name": "Reliances Industries",
-      "company_type": "Oil",
-      "stock_exchange": "BSE",
-      "total_shares": 20000,
-      "cost_per_share": 2132,
-      "price_action": 2
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following Pokemon Types was present in the original games, Red and Blue?",
+      "correct_answer": "Ice",
+      "incorrect_answers": ["Steel", "Dark", "Fairy"]
     },
     {
-      "id": 4,
-      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
-      "company_name": "Reliances Industries",
-      "company_type": "Oil",
-      "stock_exchange": "BSE",
-      "total_shares": 10000,
-      "cost_per_share": 3142,
-      "price_action": 8
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "&quot;The A Team&quot; first aired in the USA and in the UK in what year?",
+      "correct_answer": "1983",
+      "incorrect_answers": ["1981", "1985", "1987"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "The term &quot;GTO&quot; was originated by Ferrari?",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+      "correct_answer": "35 Pounds",
+      "incorrect_answers": ["30 Pounds", "40 Pounds", "32.50 Pounds"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "&quot;Stadium of Light&quot; is the home stadium for which soccer team?",
+      "correct_answer": "Sunderland FC",
+      "incorrect_answers": [
+        "Barcelona FC",
+        "Paris Saints-Germain",
+        "Manchester United"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Thirty Years War ended with which treaty?",
+      "correct_answer": "Peace of Westphalia",
+      "incorrect_answers": [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Peace of Prague"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the game Sonic Forces, which of the following was not from a previous game?",
+      "correct_answer": "Infinite",
+      "incorrect_answers": ["Metal Sonic", "Zavoc", "Chaos"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Laos?",
+      "correct_answer": "Country",
+      "incorrect_answers": ["Region", "River", "City"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Lenovo acquired IBM&#039;s personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+      "correct_answer": "2005",
+      "incorrect_answers": ["1999", "2002", "2008"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of a popular franchise that includes placing blocks down and surviving in an open world? ",
+      "correct_answer": "Minecraft",
+      "incorrect_answers": ["Unturned", "Roblox", "Grand Theft Auto V"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which singer is portrayed by Bruce Campbell in the 2002 film &#039;Bubba Ho-Tep&#039;?",
+      "correct_answer": "Elvis Presley",
+      "incorrect_answers": ["Johnny Cash", "Hank Williams, Sr.", "Buddy Holly"]
     }
   ]
 }
