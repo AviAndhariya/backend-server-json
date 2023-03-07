@@ -7,19 +7,7 @@
     }
   ],
   "task": {
-    "abc": [
-      {
-        "task1": "make db",
-        "task2": "make cra",
-        "task3": "deploy"
-      }
-    ],
-    "xyz": [
-      {
-        "task1": "make db x",
-        "task2": "make cra x",
-        "task3": "deploy x"
-      }
-    ]
+    "abc": ["make db", "make cra", "deploy"],
+    "xyz": ["make db x", "make cra x", "deploy x"]
   }
 }
