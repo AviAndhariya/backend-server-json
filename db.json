@@ -13,6 +13,13 @@
         "task2": "make cra",
         "task3": "deploy"
       }
+    ],
+    "xyz": [
+      {
+        "task1": "make db x",
+        "task2": "make cra x",
+        "task3": "deploy x"
+      }
     ]
   }
 }
